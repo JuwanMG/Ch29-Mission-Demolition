@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Goal : MonoBehaviour {
-    public static bool goalMet= false;
+    static public bool goalMet= false;
 
     // Use this for initialization
     void OnTriggerEnter(Collider other)
